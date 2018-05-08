@@ -1,0 +1,41 @@
+{
+  "name": "vue-skeleton",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build:release": "vue-cli-service build --mode release",
+    "build:staging": "vue-cli-service build --mode staging",
+    "build:beta": "vue-cli-service build --mode beta",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
+    "@vue/cli-service": "^3.0.0-beta.6",
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^4.5.0",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/recommended",
+      "eslint:recommended"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
