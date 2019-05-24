@@ -4,7 +4,7 @@ import Main from './views/Main'
 
 import StartDummy from './views/StartDummy'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [

@@ -31,7 +31,12 @@
     "extends": [
       "plugin:vue/recommended",
       "eslint:recommended"
-    ]
+    ],
+    "rules": {
+      "no-console": "off",
+      "no-undef": "off",
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
